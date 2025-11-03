@@ -24,7 +24,7 @@ def password_validator(string):
             num += 1
         elif not char.islower() and not char.isupper() and not char.isdigit():
             special += 1
-        elif char == '-' or char ==" ":
+        elif char.equal('-') or char ==" ":
             exclusion += 1
 
 

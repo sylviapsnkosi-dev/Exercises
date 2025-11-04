@@ -56,5 +56,10 @@ NOTES
 
 
 5. only commit changes to this file only, ensure to nevigate to be adding from the directory of the file - then we git add UsernameValidator.java
+
+
+6. to be able to use list in java we must improt it from the java.util library
+
+
  */
  

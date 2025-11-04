@@ -53,7 +53,8 @@ NOTES
 3. charAt(length - 1) → gets the last character in java string[-1] does not work the last element is length - 1
 
 4. also work for the character limit  - !(size >= 4 && size <= 25)  better (size < 4 || size > 26)
-git
+
+
 5. only commit changes to this file only, ensure to nevigate to be adding from the directory of the file - then we git add UsernameValidator.java
  */
  

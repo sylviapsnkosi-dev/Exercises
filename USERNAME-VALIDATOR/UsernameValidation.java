@@ -51,5 +51,7 @@ NOTES
 2. Always use charAt() method to get a character from a string  - string[index] - does not work in Java
 
 3. charAt(length - 1) → gets the last character in java string[-1] does not work the last element is length - 1
+
+4. also work for the character limit  - !(size >= 4 && size <= 25)  better (size < 4 || size > 26)
  */
  

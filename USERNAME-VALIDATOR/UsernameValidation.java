@@ -23,8 +23,8 @@ public class UsernameValidation{
      //4. It cannot end with an underscore character.
         char end = username.charAt(size-1);
 
-        //look for illigal characters
-        for (int x = 1; x < size; ++x){
+        //look for illigal characters in between start and end excluded
+        for (int x = 1; x < size - 1; ++x){
             char currentChar = username.charAt(x);
                 if((!Character.isLetter(currentChar)) && (!Character.isDigit(currentChar)) && (!List.of('_').contains(currentChar))){
                     special += 1;  
